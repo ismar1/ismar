@@ -24,15 +24,16 @@ const header = props => {
           </a>
 
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a href="#" className="dropdown-item">Github</a>
-            <a href="#" className="dropdown-item">Trello</a>
+            <a href="https://github.com/ismar1"  target="_blank" className="dropdown-item">Github</a>
+            <a href="https://trello.com/ismar3531"  target="_blank" className="dropdown-item">Trello</a>
             <div className="dropdown-divider"></div>
-            <a href="#" className="dropdown-item">Facebook</a>
-            <a href="#" className="dropdown-item">Instagram</a>
+            <a href="https://fb.com/ismar3531" target="_blank" className="dropdown-item">Facebook</a>
+            <a href="https://www.instagram.com/ismarsantos_"  target="_blank" className="dropdown-item">Instagram</a>
           </div>
         </li>
       </ul>
     </nav>
   )
 }
+
 export default header

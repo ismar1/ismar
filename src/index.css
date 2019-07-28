@@ -28,3 +28,19 @@ code {
   padding: 80px 60px;
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 }
+
+.footer {
+  background: rgb(65, 65, 65);
+}
+
+.link {
+  text-decoration: none;
+  color: #5293cf;
+}
+.link:hover {
+  color: #3f79af;
+}
+
+.email {
+  width: 350px;
+}
