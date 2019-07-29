@@ -8,7 +8,7 @@ const skill = props => (
       </div>
 
       <div className="col-md-9">
-      <h4>{props.name}</h4>
+        <h4>{props.name}</h4>
       </div>
     </div>
   </div>

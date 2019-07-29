@@ -7,7 +7,7 @@ import Footer from './comps/footer'
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Container />
       <Footer />

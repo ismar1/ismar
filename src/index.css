@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+.header {
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  padding-top: 100px;
+}
+
 .border-perfil {
   border: 5px solid white;
 }
@@ -29,15 +38,19 @@ code {
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 }
 
+.background-text-inverse {
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
 .footer {
-  background: rgb(65, 65, 65);
+  background: #272727;
 }
 
 .link {
-  text-decoration: none;
   color: #5293cf;
 }
 .link:hover {
+  text-decoration: none;
   color: #3f79af;
 }
 
